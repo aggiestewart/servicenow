@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Release Ready Sets" max_length="40" name="x_39452_update_set_release_ready_sets" type="collection">
+        <element label="Data Files" max_length="40" name="data_files" type="translated_text"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Prod Sign Off" max_length="40" name="prod_sign_off" type="boolean"/>
+        <element label="QA Sign Off" max_length="40" name="qa_sign_off" type="boolean"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Test Sign Off" max_length="40" name="test_sign_off" type="boolean"/>
+        <element label="Update Set" max_length="32" name="update_set" reference="sys_update_set" type="reference"/>
+        <index name="index">
+            <element name="update_set"/>
+        </index>
+    </element>
+</database>
