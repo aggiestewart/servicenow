@@ -8,7 +8,7 @@
         <sys_class_name>sys_number</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-07-21 00:07:41</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>7df9b760db302200b8977fcfbf9619d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>REL</sys_name>
